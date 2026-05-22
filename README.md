@@ -42,10 +42,6 @@ Sprawdzenie gałęzi w projekcie.
 
 Przełączenie się na gałąź w projekcie.
 
-### `git push`
-
-Wysyła lokalne commity na zdalny serwer (np. GitHub).
-
 ### `git fetch`
 
 Pobiera informacje o zmianach ze zdalnego repo, ale nie scala ich z lokalnym kodem.    
@@ -55,7 +51,11 @@ Po `git fetch` możesz zobaczyć różnice komendą `git diff main origin/main`.
 
 To skrót od `git fetch` + `git merge`. Pobiera zmiany i od razu scala je z bieżącą gałęzią.
 
-#### `git push --force`
+### `git push`
+
+Wysyła lokalne commity na zdalny serwer (np. GitHub).
+
+### `git push --force`
 
 To samo co `git push`, ale nadpisuje historię na serwerze nawet jeśli jest rozbieżna z lokalną.
 
